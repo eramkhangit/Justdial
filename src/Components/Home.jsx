@@ -97,15 +97,15 @@ function Home() {
   return (
     <>
 
-      <div className=' mt-5 flex  justify-center'>
+      <div className=' mt-5 mb-5 flex  justify-center'>
 
-        <div className='w-full grid grid-cols-4 md:grid-cols-8 place-items-center '>
+        <div className='w-full border-1 border-red-500 grid grid-cols-4 md:grid-cols-8 place-items-center '>
 
           {iconContainer.map(({ id, title, icon }) => (
 
-            <div key={id} className='w-20 h-14 p-1 mb-1 flex flex-col'>
-              <div className='text-2xl mx-auto'>{icon}</div>
-              <p className='text-[12px] font-semibold text-center '>{title}</p>
+            <div key={id} className=' w-20 h-14 p-1 m-2 flex flex-col'>
+              <div className=' text-2xl mx-auto '>{icon}</div>
+              <p className='text-[12px] font-semibold text-center mt-2'>{title}</p>
             </div>
           )
           )}
@@ -120,7 +120,7 @@ function Home() {
 
 
       {/* Home Services */}
-      <div className='md:pt-6 border-2 border-red-500' >
+      <div className='md:pt-6 ' >
         <HomeService />
 
       </div>

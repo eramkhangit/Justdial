@@ -40,7 +40,7 @@ function Footer() {
 
   ]
   return (
-    <div className='bg-white w-screen'>
+    <div className=' bg-white w-screen'>
 
       <div className=' w-screen flex flex-row items-center gap-8'>
         {
