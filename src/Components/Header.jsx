@@ -38,18 +38,18 @@ function Header() {
       </div>
 
       {/* Search box  (fixed top-0)*/}
-      <div className=' flex flex-row border-[1px] border-slate-200 rounded-md items-center justify-between py-2 px-7 my-4 shadow-[inset_0px_0px_4px_-1px_#D3D3D3]  '>
+      <div className=' flex flex-row border-[1px] border-slate-200 rounded-md items-center mx-3 md:mx-auto justify-between  py-2  px-4 md:px-12 my-4 shadow-[inset_0px_0px_5px_-1px_#D3D3D3] md:max-w-[85%]'>
 
-        <div className=' flex items-center'>
+        <div className=' flex items-center flex-row md:gap-8'>
 
-          <label htmlFor="search-box" className='inline-block  text-2xl ' ><IoMdSearch /></label>
+          <label htmlFor="search-box" className='inline-block text-xl md:text-2xl ' ><IoMdSearch /></label>
 
-          <input type="search" id="search-box" placeholder='Restaurants near me ' className='py-1 px-2 placeholder-slate-600 placeholder:text-lg' />
+          <input type="search" id="search-box" placeholder='Restaurants near me ' className=' w-[95%] py-1 pl-[10px] placeholder-slate-600 placeholder:text-[14px] md:placeholder:text-lg' />
 
         </div>
 
-        <div className=' flex flex-row gap-4'>
-          <label htmlFor="search-box" className=' text-3xl '><MdOutlineCenterFocusStrong /></label>
+        <div className='flex gap-2 md:gap-8 flex-row '>
+          <label htmlFor="search-box" className='text-2xl md:text-3xl '><MdOutlineCenterFocusStrong /></label>
 
           <label htmlFor="search-box" className=' inline-block text-2xl' ><MdKeyboardVoice /></label>
 
