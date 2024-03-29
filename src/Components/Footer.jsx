@@ -40,7 +40,7 @@ function Footer() {
 
   ]
   return (
-    <div className='pt-2 bg-white w-screen'>
+    <div className='bg-white w-screen'>
 
       <div className=' w-screen flex flex-row items-center gap-8'>
         {
@@ -55,13 +55,10 @@ function Footer() {
           ))
 
         }
-        
-        {/* <div className=' md:hidden border-2 border-red-500 relative top-[-20px] left-[-7.8rem] md:left-[-21rem] inline-block rounded-xl bg-red-500 w-[16px] h-[15px] md:w-[26px] md:h-[18px]'>
-          <p className='text-[10px] text-white'>10</p>
-        </div> */}
 
       </div>
 
+      
 
     </div>
   )
